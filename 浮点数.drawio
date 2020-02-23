@@ -1,1 +1,43 @@
-<mxfile host="www.draw.io" modified="2020-02-23T10:53:21.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="eygng-N17SwiPjo87USR" version="12.7.4" type="github"><diagram id="vDF3Hs1tSZUEA7Ewwk__" name="第 1 页">3Zhfb5swEMA/jaX1YRLgkJjHQNLuYZM2VVOfHXDAm4MzY/Knn3422AUKTdMlzaImD7Hv7DO+n+/OAcBotbsTeJ194wlhwHOSHYAz4HmuA5H60ZJ9LRkFQS1IBU3MoEZwTx+JnWmkJU1I0RkoOWeSrrvCmOc5iWVHhoXg2+6wJWfdVdc4JT3BfYxZX/pAE5kZ6cRxGsUXQtPMLu1azQrb0UZQZDjh25YIzgGMBOeybq12EWHae9Yx9bzbF7RPTyZILo+ZcPtQltPtZA9/jPffl9nmznV+fjZWNpiVZscFTXPzwHJv3SB4mSdEG3IADLcZleR+jWOt3SrwSpbJFVM9VzWXlLGIMy6quXDp66+SF1Lw36SlGVcfPYPnsiWvP9ooF/RR6TAzK/f3bDdAhCS7lsj44I7wFZFir4YYrTc2POyJhKa/bfhaZFmL7MjIsDlR6ZPlxueqYdz+BgReDwHwxkytGiZ0oxdkmohWjP+U+rCEsdo9EU1ftVL9i8B8BMIZQDMwHwMUATTRjcAHoWNtLoQd/Yns1jxXpm6sTj1+tWStP+shSHyCktHQIUDeAlaHwO7T7O48sNHrsN2L0kY92h5sYatQhfND2FY4l7Qo8M1pgGoQNqkNIcMELePBuI0RWSzPQ2jkHBOOlyTkwoGAfOZpkqgqYbpcyIynPMds3kjDLotmzFfO18bfv4iUe1PycCl5l8+Lvi14KWJyaAPGMxKLlMjXk7/ezEFUgjAs6aZbEs/vd6fv9/kETCMwHevAQLcgnLRCRXUjEEydKtchEKhBCKh4R77b46UOo+y6t5dt9JGlqvBPjWJFk6QmSQr6iBeVKc1yzWkuq837IfBn2paCV9QcD5J7Q97yulEBg4G8NRQV3rtFxejNZYqRpewXKefIavMyssrulQHzg2dpbHLcreL9ePln4tXMux5ggkuVkHh+vlthrwwN8IMX5de/KLzGT1SP1QcITwZYW76ykIOTa0MWnCnk4MfMkb3L+P8GZi92JwP7mLhGXVy+4x9V0tx3wzV0Mf+n+HL7f6tORnilF0n/YjGnus3LrErXeicI538B</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-23T10:54:04.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="wZJIyL8DgKlv4937sHee" version="12.7.4" type="github">
+  <diagram id="vDF3Hs1tSZUEA7Ewwk__" name="第 1 页">
+    <mxGraphModel dx="1038" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-1" value="sign" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="260" y="430" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-2" value="&lt;div align=&quot;center&quot;&gt;8位指数&lt;br&gt;(exponent)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+          <mxGeometry x="280" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-8" value="23位尾数&lt;br&gt;(mantissa)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="400" y="430" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FWuuAw7y3Q6yPfhvG10U-10" target="FWuuAw7y3Q6yPfhvG10U-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-10" value="符号位：0或者1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="390" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-14" value="&lt;div align=&quot;left&quot;&gt;0&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="470" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-15" value="&lt;div align=&quot;left&quot;&gt;22&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-18" value="&lt;div align=&quot;right&quot;&gt;23&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-19" value="&lt;div align=&quot;left&quot;&gt;30&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-22" value="&lt;div align=&quot;left&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="505" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FWuuAw7y3Q6yPfhvG10U-23" value="&lt;div align=&quot;left&quot;&gt;31&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
